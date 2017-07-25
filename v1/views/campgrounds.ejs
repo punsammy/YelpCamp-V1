@@ -2,11 +2,14 @@
 
 <h1>This is the Campground Page!</h1>
 
+<a href="/" class="ui secondary button">Go Back</a>
+
 <% campgrounds.forEach(function(campground) { %>
   <div class="campground-info">
     <h4><%= campground.name  %></h4>
     <img src="<%= campground.image %>">
   </div>
 <% }); %>
+
 
 <% include partials/footer %>

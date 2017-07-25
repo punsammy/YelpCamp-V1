@@ -1,3 +1,31 @@
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 4%;
+}
+
+.field {
+  width: 50%;
+  min-width: 250px;
+  margin: auto;
+}
+
+.campground-form {
+  text-align: center;
+  position: relative;
+  max-width: 900px;
+  margin: auto;
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.ui.form .field {
+  margin: auto;
+  margin-top: 2%;
+}
+
+button.ui.button {
+  margin-top: 2%;
 }
