@@ -14,7 +14,7 @@
 
   <div class="ui three column grid">
     <% campgrounds.forEach(function(campground) { %>
-      <div class="column">
+      <div class="column" id="campground-container">
         <div class="campground-info" "ui segment">
           <h4><%= campground.name  %></h4>
           <img src="<%= campground.image %>">
