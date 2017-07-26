@@ -29,3 +29,24 @@ html {
 button.ui.button {
   margin-top: 2%;
 }
+
+h1 {
+  text-align: center;
+}
+
+.landing-title {
+  margin-bottom: 5%;
+}
+
+.campground-info {
+  text-align: center;
+}
+
+#rightside-button {
+  float: right;
+}
+
+.landing-page {
+  text-align: center;
+  margin-top: 10%;
+}
