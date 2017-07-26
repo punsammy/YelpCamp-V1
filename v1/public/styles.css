@@ -1,6 +1,26 @@
+@media only screen and (max-width: 500px) {
+
+
+
+}
+
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 4%;
+}
+
+.nav-bar {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#nav-item {
+  width: 10%;
+  color: #FFFFFF;
 }
 
 .field {
@@ -36,6 +56,35 @@ h1 {
 
 .landing-title {
   margin-bottom: 5%;
+}
+
+.campgrounds-page {
+  min-width: 800px;
+}
+
+.campgrounds-title {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.nav-campgrounds {
+  max-width: 1200px;
+  margin: auto;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  border-style: double;
+  box-shadow: 6px 6px 1px #888888;
+  border-color: #cccccc;
+  max-height: 308px;
+}
+
+div.ui.three.column.grid {
+  margin: auto;
+  overflow: auto;
 }
 
 .campground-info {
