@@ -35,3 +35,8 @@ app.get('/campgrounds/new', function(req, res) {
 app.listen(process.env.PORT || 3000, function(){
   console.log("Server is listening!");
 });
+
+
+// mongoose.connect("mongodb://localhost/yelp_camp", {useMongoClient: true})
+
+// mongoose.Promise = global.Promise;
